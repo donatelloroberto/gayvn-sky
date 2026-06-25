@@ -1,0 +1,14 @@
+{
+  "name": "skystream-gayvn-extensions",
+  "version": "1.0.0",
+  "description": "SkyStream Gen 2 adult plugin repository — 16 plugins converted from the gayvn-cs-main CloudStream extension pack.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.0"
+  }
+}
